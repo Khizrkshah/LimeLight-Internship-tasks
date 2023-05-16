@@ -618,6 +618,11 @@ pre code {
   margin-left: -0.75rem;
 }
 
+.row-socials {
+  display: flex;
+  justify-content: center;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -2599,8 +2604,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #008080;
+  border-color: #003c3c;
 }
 .btn-primary:hover {
   color: #fff;
@@ -6666,7 +6671,8 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 100% !important;
+  color: #008080;
 }
 
 .rounded-pill {
@@ -10174,7 +10180,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #008080 !important;
 }
 
 a.text-primary:hover,
@@ -10469,7 +10475,7 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #fed136;
+  background-color: #008080;
   border: 0;
 }
 #mainNav .navbar-brand {
@@ -10494,7 +10500,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #008080;
 }
 
 @media (min-width: 992px) {
@@ -10537,7 +10543,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpeg");
+  background-image: url("../assets/img/header-bg.webp");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
